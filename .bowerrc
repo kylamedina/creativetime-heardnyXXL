@@ -1,0 +1,4 @@
+{
+  "directory": "assets/vendor",
+  "shorthand_resolver": "git://example.com/{{{ organization }}}/{{{ package }}}.git"
+}

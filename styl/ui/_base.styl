@@ -1,0 +1,41 @@
+html,body
+	margin 0
+	padding 0
+body, header, main, footer
+	clearfix()
+img, embed, object
+	width 100%
+body
+	background-color bgColor
+
+*,
+*:after,
+*:before
+	border-box()
+
+::-moz-selection
+	background-color primary
+	color white
+::selection
+	background-color primary
+	color white
+
+// Typography Colors
+.primary
+	color primary
+.secondary
+	color secondary
+.tertiary
+	color tertiary
+
+// Background Colors
+.primaryBg
+	background-color primaryBg
+	// For SVG
+	fill primaryBg
+.secondaryBg
+	background-color secondaryBg
+	fill secondaryBg
+.tertiaryBg
+	background-color tertiaryBg
+	fill tertiaryBg

@@ -1,0 +1,9 @@
+{
+  "name": "headjs",
+  "version": "0.0.0",
+  "commit": "42a0052309f7b2faaab1a1fcf0535365e8eb3ad7",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/headjs/headjs.git"
+  }
+}
