@@ -31,7 +31,9 @@ jQuery(document).ready(function(){
 
 			jQuery(this).click(function(e){
 
-				jQuery('.meter').fadeIn('fast');
+				jQuery('.meter').css('top', (jQuery(window).width()/2) - (jQuery('.meter').outerWidth()/2))
+								.css('left', (jQuery(window).height()/2) - (jQuery('.meter').outerHeight()/2))
+								.fadeIn('fast');
 
 				var i = this.getAttribute('id');
 				var c = this.getAttribute('class');
@@ -62,12 +64,12 @@ jQuery(document).ready(function(){
 									 	jQuery('div.meter').css('display', 'none');
 
 										if(c == 'twitter') {
-											var w = 229;
-											var h = (jQuery('#overlay').height()/2) - (jQuery('#tweets').children('#'+i).outerHeight()/2);
+											var w = (jQuery(window).width()/2) - 220;
+											var h = (jQuery(window).height()/2) - (jQuery('#tweets').children('#'+i).outerHeight()/2);
 											jQuery('#tweets').addClass('importantRule').css({ opacity: 1, translate: [w,h] }).children('#'+i).fadeIn('fast').siblings().css('display', 'none');
 									 	} else {
-									 		var w = (jQuery('#overlay').width()/2) - (jQuery('#popup').outerWidth()/2);
-											var h = (jQuery('#overlay').height()/2) - (jQuery('#popup').outerHeight()/2);
+									 		var w = (jQuery(window).width()/2) - (jQuery('#popup').outerWidth()/2);
+											var h = (jQuery(window).height()/2) - (jQuery('#popup').outerHeight()/2);
 									 		jQuery(this).parent('span').fadeIn('fast').css({ opacity: 1, translate: [w,h] });
 									 	}
 
