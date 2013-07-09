@@ -166,7 +166,7 @@
 		</g>
 	</g>
 	<g id="a">
-		<polygon fill="none" stroke="#DF366D" stroke-width="2" stroke-miterlimit="10" points="281,202 685,203 631,1 335,1 		"/>
+		<polygon fill="none" stroke="#DF366D" stroke-width="4" stroke-miterlimit="10" points="281,202 685,203 631,1 335,1 		"/>
 		<polygon fill="none" points="281,202 213,451 427,451 480,203 		"/>
 		<polygon fill="none" points="213,451 427,451 393,601 173,601 		"/>
 		<polyline fill="none" points="393,601 333,887 93,887 172,601 		"/>
@@ -176,9 +176,9 @@
 		<polygon fill="none" points="541,473 559,551 781,551 759,473 		"/>
 		<polygon fill="none" points="559,551 781,551 841,785 611,785 		"/>
 		<polygon fill="none" points="699,1161 943,1161 841,785 611,785 		"/>
-		<polygon fill="none" stroke="#DF366D" stroke-width="2" stroke-miterlimit="10" points="335,1 631,1 943,1161 699,1161 
+		<polygon fill="none" stroke="#DF366D" stroke-width="4" stroke-miterlimit="10" points="335,1 631,1 943,1161 699,1161 
 			641.894,917 325.993,917 269,1161 21,1161 		"/>
-		<polygon fill="none" stroke="#DF366D" stroke-width="2" stroke-miterlimit="10" points="480,203 597.645,725.583 369,725 		"/>
+		<polygon fill="none" stroke="#DF366D" stroke-width="4" stroke-miterlimit="10" points="480,203 597.645,725.583 369,725 		"/>
 	</g>
 </g>
 </svg>
