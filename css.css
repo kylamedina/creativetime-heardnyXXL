@@ -680,8 +680,9 @@ nav li {
   background-color: #f0537a;
 }
 #overlay {
-  width: 5297px;
+  width: 5334px;
   height: 100%;
+  min-height: 850px;
   display: none;
   background: rgba(0,0,0,0.5);
   position: absolute;
@@ -729,9 +730,8 @@ nav li {
 }
 .meter {
   height: 10px;
-  width: 30%;
-  left: 35%;
   position: absolute;
+  width: 400px;
   top: 220px;
   background: #fff;
   -moz-border-radius: 25px;
