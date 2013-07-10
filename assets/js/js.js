@@ -31,9 +31,11 @@ jQuery(document).ready(function(){
 
 			jQuery(this).click(function(e){
 
-				jQuery('.meter').css('top', (jQuery(window).width()/2) - (jQuery('.meter').outerWidth()/2))
-								.css('left', (jQuery(window).height()/2) - (jQuery('.meter').outerHeight()/2))
+				jQuery('.meter').css('top', (jQuery(window).height()/2) - (10/2))
+								.css('left', (jQuery(window).width()/2) - (400/2))
 								.fadeIn('fast');
+
+			
 
 				var i = this.getAttribute('id');
 				var c = this.getAttribute('class');

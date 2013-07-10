@@ -689,7 +689,7 @@ nav li {
   z-index: 999;
 }
 #popup {
-  position: absolute;
+  position: fixed;
   -moz-transform: scale(0, 0);
   -webkit-transform: scale(0, 0);
   -o-transform: scale(0, 0);
@@ -717,6 +717,9 @@ nav li {
 }
 #close {
   pointer-events: auto;
+  position: fixed;
+  top: 5px;
+  left: 5px;
 }
 .scaled-img {
   width: auto;
@@ -730,7 +733,7 @@ nav li {
 }
 .meter {
   height: 10px;
-  position: absolute;
+  position: fixed;
   width: 400px;
   background: #fff;
   -moz-border-radius: 25px;
@@ -768,8 +771,9 @@ nav li {
   animation-iteration-count: infinite;
 }
 #tweets {
+  height: 0 !important;
   display: block;
-  position: absolute;
+  position: fixed;
   z-index: 1000;
   top: 0;
   filter: alpha(opacity = 0);
