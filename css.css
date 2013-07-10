@@ -509,15 +509,18 @@ svg {
 body,
 html {
   background: #fff;
-}
-body {
   width: 100%;
+  height: 100%;
 }
 .frame {
   padding-top: 50px;
+  overflow-x: scroll;
+  width: 100%;
+  height: 100%;
 }
 .frame .creativetime {
   width: 5334px;
+  height: 100%;
   position: relative;
   margin-right: -10% !important;
   -moz-transition: all 0.5s;

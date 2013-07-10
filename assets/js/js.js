@@ -171,10 +171,10 @@ jQuery(document).ready(function(){
 
 		var letter = (jQuery(this).html().toUpperCase() != '#') ? jQuery(this).html().toUpperCase() : 'hash';
 		var target = jQuery("#"+letter);
-	
+		
 		if (target) {
 			jQuery(this).addClass('active').siblings().removeClass('active');
-				jQuery('.frame').animate({ scrollLeft: (target.position().left + (target.width()/2) - (jQuery('.frame').width()/2)) }, 500).dequeue();
+			jQuery('.frame').animate({ scrollLeft: (target.position().left + (target.width()/2) - (jQuery('.frame').width()/2)) }, 800).dequeue();
 		}
 			
 	});
