@@ -903,7 +903,7 @@ nav li {
     transition: all 0.5s;
   }
 }
-@media only screen and (max-height: 850px) {
+@media only screen and (max-height: 900px) {
   .frame .creativetime {
     width: 4100px;
     -moz-transition: all 0.5s;
@@ -922,9 +922,9 @@ nav li {
     transition: all 0.5s;
   }
 }
-@media only screen and (max-height: 750px) {
+@media only screen and (max-height: 800px) {
   .frame .creativetime {
-    width: 2800px;
+    width: 3000px;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -933,7 +933,45 @@ nav li {
   }
   .frame embed,
   .frame object {
-    height: 400px;
+    height: 450px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+}
+@media only screen and (max-height: 700px) {
+  .frame .creativetime {
+    width: 2200px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .frame embed,
+  .frame object {
+    height: 350px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+}
+@media only screen and (max-height: 550px) {
+  .frame .creativetime {
+    width: 1500px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .frame embed,
+  .frame object {
+    height: 200px;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
