@@ -520,9 +520,19 @@ body {
   width: 5334px;
   position: relative;
   margin-right: -10% !important;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .frame embed,
 .frame object {
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
   width: 100%;
   height: 800px;
   vertical-align: middle;
@@ -577,7 +587,7 @@ body {
   visibility: hidden;
 }
 .grid span {
-  width: 633px;
+  width: 11%;
   display: inline-block;
 }
 .grid .vine,
@@ -586,10 +596,10 @@ body {
   display: block;
 }
 span#I {
-  width: 233px;
+  width: 4%;
 }
 span#A {
-  width: 660px;
+  width: 13%;
 }
 nav {
   display: inline-block;
@@ -862,6 +872,63 @@ nav li {
   -o-transition: all 0.3s;
   -ms-transition: all 0.3s;
   transition: all 0.3s;
+}
+@media only screen and (max-height: 1000px) {
+  .frame .creativetime {
+    width: 4800px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .frame embed,
+  .frame object {
+    height: 700px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+}
+@media only screen and (max-height: 850px) {
+  .frame .creativetime {
+    width: 4100px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .frame embed,
+  .frame object {
+    height: 600px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+}
+@media only screen and (max-height: 750px) {
+  .frame .creativetime {
+    width: 2800px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .frame embed,
+  .frame object {
+    height: 400px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+  }
 }
 @-moz-keyframes bounceInDown {
   0% {
