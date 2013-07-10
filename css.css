@@ -873,6 +873,14 @@ nav li {
   -ms-transition: all 0.3s;
   transition: all 0.3s;
 }
+.fullscreen p {
+  text-align: center;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.fullscreen p a {
+  text-decoration: none;
+}
 @media only screen and (max-height: 1000px) {
   .frame .creativetime {
     width: 4800px;
