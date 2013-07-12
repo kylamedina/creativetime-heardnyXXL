@@ -903,9 +903,9 @@ nav li {
     transition: all 0.5s;
   }
 }
-@media only screen and (max-height: 900px) {
+@media only screen and (max-height: 899px) {
   .frame .creativetime {
-    width: 4100px;
+    width: 4200px;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -914,7 +914,7 @@ nav li {
   }
   .frame embed,
   .frame object {
-    height: 600px;
+    height: 650px;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -922,9 +922,9 @@ nav li {
     transition: all 0.5s;
   }
 }
-@media only screen and (max-height: 800px) {
+@media only screen and (max-height: 799px) {
   .frame .creativetime {
-    width: 3000px;
+    width: 3200px;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -933,7 +933,7 @@ nav li {
   }
   .frame embed,
   .frame object {
-    height: 450px;
+    height: 500px;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -941,9 +941,9 @@ nav li {
     transition: all 0.5s;
   }
 }
-@media only screen and (max-height: 700px) {
+@media only screen and (max-height: 649px) {
   .frame .creativetime {
-    width: 2200px;
+    width: 2800px;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -952,7 +952,7 @@ nav li {
   }
   .frame embed,
   .frame object {
-    height: 350px;
+    height: 400px;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -961,6 +961,25 @@ nav li {
   }
 }
 @media only screen and (max-height: 550px) {
+  .frame .creativetime {
+    width: 2000px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .frame embed,
+  .frame object {
+    height: 300px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+}
+@media only screen and (max-height: 450px) {
   .frame .creativetime {
     width: 1500px;
     -moz-transition: all 0.5s;
