@@ -924,7 +924,7 @@ nav li {
 }
 @media only screen and (max-height: 799px) {
   .frame .creativetime {
-    width: 3999px;
+    width: 3800px;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
